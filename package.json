@@ -35,6 +35,7 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.6"
   },
+  "packageManager": "pnpm@8.15.4",
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
