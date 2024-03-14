@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@rcuse/shared':
+    specifier: ^0.9.1
+    version: 0.9.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -743,6 +746,13 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
     dev: true
+
+  /@rcuse/shared@0.9.1:
+    resolution: {integrity: sha512-mJr5UTKPvfrRdUtbyqR4u1hfaZ9FXAQnG3Aimx+gKmgV86IcvMXXv3L0TWiUEZsrSIe+ICfoQ2cdFKB8irRpFg==}
+    dependencies:
+      type-fest: 4.12.0
+      user-agent-data-types: 0.4.2
+    dev: false
 
   /@rollup/rollup-android-arm-eabi@4.13.0:
     resolution: {integrity: sha512-5ZYPOuaAqEH/W3gYsRkxQATBW3Ii1MfaT4EQstTnLKViLi2gLSQmlmtTpGucNP3sXEpOiI5tdGhjdE111ekyEg==}
@@ -4161,6 +4171,11 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
+  /type-fest@4.12.0:
+    resolution: {integrity: sha512-5Y2/pp2wtJk8o08G0CMkuFPCO354FGwk/vbidxrdhRGZfd0tFnb4Qb8anp9XxXriwBgVPjdWbKpGl4J9lJY2jQ==}
+    engines: {node: '>=16'}
+    dev: false
+
   /typed-array-buffer@1.0.2:
     resolution: {integrity: sha512-gEymJYKZtKXzzBzM4jqa9w6Q1Jjm7x2d+sh19AdsD4wqnMPDYyvwpsIc2Q/835kHuo3BEQ7CjelGhfTsoBb2MQ==}
     engines: {node: '>= 0.4'}
@@ -4251,6 +4266,10 @@ packages:
     dependencies:
       punycode: 2.3.1
     dev: true
+
+  /user-agent-data-types@0.4.2:
+    resolution: {integrity: sha512-jXep3kO/dGNmDOkbDa8ccp4QArgxR4I76m3QVcJ1aOF0B9toc+YtSXtX5gLdDTZXyWlpQYQrABr6L1L2GZOghw==}
+    dev: false
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
